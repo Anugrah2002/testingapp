@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn projectYoutube.wsgi --log-file -
+web: python manage.py migrate && gunicorn testing_app.wsgi --log-file -
